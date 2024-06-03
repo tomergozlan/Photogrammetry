@@ -239,5 +239,5 @@ The 10_MeshFiltering step refines the mesh generated in 09_Meshing. This step in
 - Retaining the largest contiguous mesh while removing all smaller, disconnected parts.
 - Mesh Filtering
 
-11_Texturing
+### 11_Texturing
 The final step, 11_Texturing, involves creating UV maps and projecting textures onto the mesh. With the completion of this step, the process is finished!
