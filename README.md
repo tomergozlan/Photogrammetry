@@ -156,4 +156,88 @@ python select_frames.py input_video.mp4 output_frames --overlap_threshold 0.2 --
 ```
 This command processes the input_video.mp4 file, saves the selected frames to the output_frames directory, and uses an overlap threshold of 20% and a height threshold of 50 meters.
 
+## Introduction to `images2model.py`
 
+Meshroom is designed as a modular system where the heavy lifting is done by standalone command-line C++ programs. Meshroom itself is a lightweight Python wrapper that orchestrates these tasks. Instead of using the Meshroom GUI, we will directly call these command-line programs. The source code is open, enabling the possibility of directly linking to the libraries if needed.
+
+### Requirements
+- Meshroom/AliceVision
+- Python (if not already installed)
+- MeshLab (Optional) - for viewing PLY point files
+
+The Python script `run_images2model.py` requires five arguments to run:
+
+- `baseDir`: This is the directory where intermediary files will be stored.
+- `imgDir`: This is the directory containing your source images.
+- `binDir`: This is the directory containing the AliceVision executable files.
+- `numImages`: This represents the number of images in the `imgDir`. For our example, it is 100.
+- `runStep`: This specifies the operation to execute.
+
+The command to run the script follows this format:
+
+```bash
+python run_images2model.py <baseDir> <imgDir> <binDir> <numImages> <runStep>
+```
+
+With the run_images2model.py python script, we are going to create this directory structure:
+
+Directory Structure
+
+Each directory corresponds to a specific step in the process. You can execute these steps individually by running the run_images2model_runXX.bat files. Alternatively, you can run all the steps sequentially using the run_images2model_all.bat file, optimizing the ability to understand the workflow required to prepare a 3D model.
+
+## Workflow Steps
+
+### 00_CameraInit
+The initial step generates an SFM file. These SFM files are JSON files containing camera sizes, sensor information, detected 3D points (observations), distortion coefficients, and other related data. The initial SFM file in this directory will include only sensor information, with defaults chosen from a local sensor database. Later stages will generate SFM files that encompass complete camera extrinsic matrices, bundled points, and more.
+
+### 01_FeatureExtraction
+In this step, features and their descriptors are extracted from the images. The file extension will change depending on the type of feature being extracted.
+
+### 02_ImageMatching
+This preprocessing step identifies which images should be matched. For a set of 1000 images, checking each image against every other image would result in 1 million pairs, which is impractical. The 02_ImageMatching step reduces the number of pairs to be checked.
+
+### 03_FeatureMatching
+This step finds correspondences between images using the extracted feature descriptors. The output is a series of text files that are self-explanatory.
+
+### 04_StructureFromMotion
+This major step solves for the camera positions and intrinsics based on the found correspondences. The term “Structure From Motion” (SFM) is used generically to describe the process of solving camera positions. In setups with multiple synchronized cameras, SFM aligns the cameras even if the scene itself is static.
+
+By default, Meshroom saves the solved data as an Alembic file, but I prefer to save it as an SFM file. This step generates intermediary data, allowing you to verify the correct alignment of the cameras. The script outputs PLY files, which can be viewed in MeshLab. The key files are:
+
+bundle.sfm: SFM file with all observations.
+cameras.sfm: SFM file with only the aligned cameras.
+cloud_and_poses.ply: Contains found points and camera positions.
+Cloud and Poses
+Figure 2: The cloud_and_poses.ply file is particularly useful. The green dots representing cameras in this file provide a straightforward way to verify correct camera alignment. If issues arise, you can adjust features, matches, or SFM parameters accordingly.
+
+### 05_PrepareDenseScene
+05_PrepareDenseScene’s primary function is to undistort the images. It generates undistorted EXR images so that the following depth calculation and projection steps do not have to convert back and forth from the distortion function.
+
+### 06_CameraConnection
+This step slightly diverges from the intended workflow, where each folder represents an independent standalone step. In 06_CameraConnection, the process creates the camsPairsMatrixFromSeeds.bin file within the 05_PrepareDenseScene directory. This is necessary because the file needs to reside in the same directory as the undistorted images.
+
+### 07_DepthMap
+Generating depth maps is the most time-consuming step in AliceVision. This step creates a depth map for each image, saved as an EXR file. To make it more visible, I adjusted the settings, which clearly show details like the buildings and the trees.
+
+Depth Map
+
+Due to the lengthy nature of this process, there is an option to run groups of cameras as separate commands. For example, with 1000 cameras, you can process the depth maps in groups across multiple machines in a render farm. Alternatively, processing in smaller groups ensures that if one machine crashes, you don't need to rerun the entire process.
+
+### 08_DepthMapFilter
+The initial depth maps generated may contain inconsistencies, with some maps indicating visibility of areas that are occluded in others. The 08_DepthMapFilter step addresses this issue by identifying and isolating these inconsistent regions, ensuring depth consistency across all depth maps.
+
+### 09_Meshing
+This step is where the actual mesh generation begins. The 09_Meshing step creates the 3D mesh from the filtered depth maps. There may be issues with the initial mesh, but these can be resolved with subsequent refinement and processing steps.
+
+Meshing
+
+### 10_MeshFiltering
+The 10_MeshFiltering step refines the mesh generated in 09_Meshing. This step includes:
+
+- Smoothing the mesh.
+- Removing large, unnecessary triangles.
+- Retaining the largest contiguous mesh while removing all smaller, disconnected parts.
+- Mesh Filtering
+
+11_Texturing
+The final step, 11_Texturing, involves creating UV maps and projecting textures onto the mesh. With the completion of this step, the process is finished!
