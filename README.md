@@ -42,3 +42,8 @@ def estimate_height_from_frame(frame, reference_height=1.0, reference_size=100):
             estimated_distance = (reference_size / np.sqrt(area)) * reference_height
             return estimated_distance
     return None
+
+### Frame Selection Logic
+The select_100_distinct_frames function handles the frame selection process. It opens the video, calculates the total frames, and initializes variables for tracking selected frames. The function then iterates through each frame, estimating the height and filtering out frames below the height threshold. Selected frames are sampled to ensure distinctiveness based on SSIM scores and are saved to the output folder.
+
+Maintaining an overlap of 20% between frames is crucial for improving the robustness of the 3D model. This overlap provides sufficient redundancy, ensuring that enough common points are available for the photogrammetry software to accurately align and reconstruct the 3D structure. It also helps in mitigating errors that might arise from occasional poor-quality frames or rapid changes in the scene.
