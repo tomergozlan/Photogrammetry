@@ -8,9 +8,6 @@ In this part of the photogrammetry project, we focus on two primary objectives:
 
 The video2Images tool is designed to process new video clips (v1, v2) to generate two sets (s1, s2) of 100 images each, facilitating the creation of PointCloud p1 from s1 and PointCloud p2 from s2. Additionally, we developed a CLI tool for combining these point clouds, accommodating overlaps. Detailed documentation and validation using new videos (v3, v4) are included to ensure the reliability and efficacy of the tools.
 
-![Flight Plan](flight_plan.png)
-*Figure 1: The original flight plan of the videos of V1, V2 (mostly @ 100 meter altitude - about 785 m above sea level, created by Mavic air 2s). Note: in the flight, we have added a few "unknown" detours to allow testing of the Video2Images tool.*
-
 ## Introduction to `video2images.py`
 
 Photogrammetry has become an essential tool for creating accurate 3D models from 2D images. This tool automates the selection of distinct frames from video footage, specifically tailored for photogrammetry applications, using structural similarity metrics and height estimation to ensure the selected frames are optimized for detailed 3D model construction.
@@ -218,9 +215,6 @@ This step slightly diverges from the intended workflow, where each folder repres
 
 ### 07_DepthMap
 Generating depth maps is the most time-consuming step in AliceVision. This step creates a depth map for each image, saved as an EXR file. To make it more visible, I adjusted the settings, which clearly show details like the buildings and the trees.
-
-Depth Map
-
 Due to the lengthy nature of this process, there is an option to run groups of cameras as separate commands. For example, with 1000 cameras, you can process the depth maps in groups across multiple machines in a render farm. Alternatively, processing in smaller groups ensures that if one machine crashes, you don't need to rerun the entire process.
 
 ### 08_DepthMapFilter
@@ -228,8 +222,6 @@ The initial depth maps generated may contain inconsistencies, with some maps ind
 
 ### 09_Meshing
 This step is where the actual mesh generation begins. The 09_Meshing step creates the 3D mesh from the filtered depth maps. There may be issues with the initial mesh, but these can be resolved with subsequent refinement and processing steps.
-
-Meshing
 
 ### 10_MeshFiltering
 The 10_MeshFiltering step refines the mesh generated in 09_Meshing. This step includes:
