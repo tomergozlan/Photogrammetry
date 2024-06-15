@@ -1,0 +1,1485 @@
+{
+    "version": [
+        "1",
+        "0",
+        "0"
+    ],
+    "views": [
+        {
+            "viewId": "281418",
+            "poseId": "281418",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0065.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "7000692",
+            "poseId": "7000692",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0097.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "16635677",
+            "poseId": "16635677",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0036.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "19292366",
+            "poseId": "19292366",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0012.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "62563091",
+            "poseId": "62563091",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0026.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "69872513",
+            "poseId": "69872513",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0096.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "72750703",
+            "poseId": "72750703",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0071.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "106157740",
+            "poseId": "106157740",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0019.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "122593339",
+            "poseId": "122593339",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0074.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "148862797",
+            "poseId": "148862797",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0030.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "159883320",
+            "poseId": "159883320",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0083.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "167977404",
+            "poseId": "167977404",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0073.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "204405907",
+            "poseId": "204405907",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0002.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "251449938",
+            "poseId": "251449938",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0041.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "268847495",
+            "poseId": "268847495",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0015.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "289351068",
+            "poseId": "289351068",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0088.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "306120494",
+            "poseId": "306120494",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0055.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "332492770",
+            "poseId": "332492770",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0044.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "362442651",
+            "poseId": "362442651",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0059.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "413499319",
+            "poseId": "413499319",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0077.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "433755102",
+            "poseId": "433755102",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0022.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "456750183",
+            "poseId": "456750183",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0018.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "491624696",
+            "poseId": "491624696",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0060.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "507090750",
+            "poseId": "507090750",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0076.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "536394572",
+            "poseId": "536394572",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0049.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "579740000",
+            "poseId": "579740000",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0005.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "595444731",
+            "poseId": "595444731",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0028.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "626637720",
+            "poseId": "626637720",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0091.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "651405152",
+            "poseId": "651405152",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0006.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "672853355",
+            "poseId": "672853355",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0095.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "683079722",
+            "poseId": "683079722",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0034.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "690665857",
+            "poseId": "690665857",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0025.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "736661850",
+            "poseId": "736661850",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0037.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "748678880",
+            "poseId": "748678880",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0039.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "756063153",
+            "poseId": "756063153",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0035.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "768479201",
+            "poseId": "768479201",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0067.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "769617110",
+            "poseId": "769617110",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0094.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "781759124",
+            "poseId": "781759124",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0066.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "850672740",
+            "poseId": "850672740",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0070.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "858943217",
+            "poseId": "858943217",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0033.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "897658064",
+            "poseId": "897658064",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0075.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "971269144",
+            "poseId": "971269144",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0050.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1005924530",
+            "poseId": "1005924530",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0024.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1039067838",
+            "poseId": "1039067838",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0053.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1078340171",
+            "poseId": "1078340171",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0064.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1119887588",
+            "poseId": "1119887588",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0014.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1139800839",
+            "poseId": "1139800839",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0048.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1147732554",
+            "poseId": "1147732554",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0008.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1159754689",
+            "poseId": "1159754689",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0087.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1162772251",
+            "poseId": "1162772251",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0043.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1163718206",
+            "poseId": "1163718206",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0011.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1183258497",
+            "poseId": "1183258497",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0081.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1188846234",
+            "poseId": "1188846234",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0078.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1196896543",
+            "poseId": "1196896543",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0052.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1223175561",
+            "poseId": "1223175561",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0013.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1242253086",
+            "poseId": "1242253086",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0003.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1256872597",
+            "poseId": "1256872597",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0062.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1308641291",
+            "poseId": "1308641291",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0020.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1339724796",
+            "poseId": "1339724796",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0047.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1375567567",
+            "poseId": "1375567567",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0069.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1418904103",
+            "poseId": "1418904103",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0009.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1425359813",
+            "poseId": "1425359813",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0010.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1428487141",
+            "poseId": "1428487141",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0016.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1429073379",
+            "poseId": "1429073379",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0090.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1431199262",
+            "poseId": "1431199262",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0027.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1446198686",
+            "poseId": "1446198686",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0080.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1472528885",
+            "poseId": "1472528885",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0038.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1475597139",
+            "poseId": "1475597139",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0084.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1503000354",
+            "poseId": "1503000354",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0085.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1537327672",
+            "poseId": "1537327672",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0092.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1584042216",
+            "poseId": "1584042216",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0063.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1615100174",
+            "poseId": "1615100174",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0086.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1646429863",
+            "poseId": "1646429863",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0046.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1647351560",
+            "poseId": "1647351560",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0021.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1664374466",
+            "poseId": "1664374466",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0017.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1693986903",
+            "poseId": "1693986903",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0001.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1707515443",
+            "poseId": "1707515443",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0057.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1724217577",
+            "poseId": "1724217577",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0040.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1735922398",
+            "poseId": "1735922398",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0042.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1738048405",
+            "poseId": "1738048405",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0051.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1750469169",
+            "poseId": "1750469169",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0089.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1761909473",
+            "poseId": "1761909473",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0054.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1778338741",
+            "poseId": "1778338741",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0007.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1780862618",
+            "poseId": "1780862618",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0058.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1789068863",
+            "poseId": "1789068863",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0023.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1911602604",
+            "poseId": "1911602604",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0032.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1923562747",
+            "poseId": "1923562747",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0045.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1928484021",
+            "poseId": "1928484021",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0093.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1960691938",
+            "poseId": "1960691938",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0068.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1988776702",
+            "poseId": "1988776702",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0056.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2009681629",
+            "poseId": "2009681629",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0004.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2011792801",
+            "poseId": "2011792801",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0079.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2046133546",
+            "poseId": "2046133546",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0031.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2080441786",
+            "poseId": "2080441786",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0029.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2102469315",
+            "poseId": "2102469315",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0061.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2118799435",
+            "poseId": "2118799435",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0082.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2119627969",
+            "poseId": "2119627969",
+            "intrinsicId": "2926503035",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1\\frame_0072.jpg",
+            "width": "1280",
+            "height": "720",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": "2926503035",
+            "width": "1280",
+            "height": "720",
+            "type": "radial3",
+            "serialNumber": "D:\\Photogrammetry\\Photogrammetry\\OUTPUT_v1",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1545.0966799187809",
+            "principalPoint": [
+                "640",
+                "360"
+            ],
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "locked": "false"
+        }
+    ]
+}
