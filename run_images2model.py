@@ -3,13 +3,38 @@ import shutil
 
 
 def SilentMkdir(theDir):
+
+	"""
+	Creates a directory if it does not exist. Silently ignores any errors if the directory already exists.
+
+	Parameters:
+	theDir (str): The path of the directory to create.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	try:
 		os.mkdir(theDir)
 	except:
 		pass
 	return 0
 
+
 def Run_00_CameraInit(baseDir,binDir,srcImageDir):
+
+	"""
+	Initializes the camera for photogrammetry by creating necessary directories and executing the aliceVision_cameraInit.exe command.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+	srcImageDir (str): The directory containing source images.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/00_CameraInit")
 
 	binName = binDir + "\\aliceVision_cameraInit.exe"
@@ -24,7 +49,21 @@ def Run_00_CameraInit(baseDir,binDir,srcImageDir):
 
 	return 0
 
+
 def Run_01_FeatureExtraction(baseDir,binDir, numImages):
+
+	"""
+	Extracts features from images using AliceVision feature extraction tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+	numImages (int): The number of images to process.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/01_FeatureExtraction")
 
 	srcSfm = baseDir + "/00_CameraInit/cameraInit.sfm"
@@ -43,7 +82,20 @@ def Run_01_FeatureExtraction(baseDir,binDir, numImages):
 
 	return 0
 
+
 def Run_02_ImageMatching(baseDir,binDir):
+
+	"""
+	Matches features between images to find correspondences using AliceVision image matching tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/02_ImageMatching")
 
 	srcSfm = baseDir + "/00_CameraInit/cameraInit.sfm"
@@ -63,7 +115,20 @@ def Run_02_ImageMatching(baseDir,binDir):
 
 	return 0
 
+
 def Run_03_FeatureMatching(baseDir,binDir):
+
+	"""
+	Matches features across images using AliceVision feature matching tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/03_FeatureMatching")
 
 	srcSfm = baseDir + "/00_CameraInit/cameraInit.sfm"
@@ -86,7 +151,20 @@ def Run_03_FeatureMatching(baseDir,binDir):
 	os.system(cmdLine)
 	return 0
 
+
 def Run_04_StructureFromMotion(baseDir,binDir):
+
+	"""
+	Performs structure from motion to reconstruct 3D structure from images using AliceVision tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/04_StructureFromMotion")
 
 	srcSfm = baseDir + "/00_CameraInit/cameraInit.sfm"
@@ -101,7 +179,7 @@ def Run_04_StructureFromMotion(baseDir,binDir):
 	cmdLine = cmdLine + " --minAngleForLandmark 2.0 --minNumberOfObservationsForTriangulation 2 --maxAngleInitialPair 40.0 --maxNumberOfMatches 0 --localizerEstimator acransac --describerTypes sift --lockScenePreviouslyReconstructed False --localBAGraphDistance 1"
 	cmdLine = cmdLine + " --initialPairA "" --initialPairB "" --interFileExtension .ply --useLocalBA True"
 	cmdLine = cmdLine + " --minInputTrackLength 2 --useOnlyMatchesFromInputFolder False --verboseLevel info --minAngleForTriangulation 3.0 --maxReprojectionError 4.0 --minAngleInitialPair 5.0"
-	
+
 	cmdLine = cmdLine + " --input \"" + srcSfm + "\""
 	cmdLine = cmdLine + " --featuresFolders \"" + srcFeatures + "\""
 	cmdLine = cmdLine + " --matchesFolders \"" + srcMatches + "\""
@@ -114,6 +192,18 @@ def Run_04_StructureFromMotion(baseDir,binDir):
 	return 0
 
 def Run_05_PrepareDenseScene(baseDir,binDir):
+
+	"""
+	Prepares the scene for dense reconstruction using AliceVision tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/05_PrepareDenseScene")
 
 
@@ -132,7 +222,20 @@ def Run_05_PrepareDenseScene(baseDir,binDir):
 	os.system(cmdLine)
 	return 0
 
+
 def Run_06_CameraConnection(baseDir,binDir):
+
+	"""
+	Computes camera connections for dense reconstruction using AliceVision tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/06_CameraConnection")
 
 	srcIni = baseDir + "/05_PrepareDenseScene/mvs.ini"
@@ -149,7 +252,22 @@ def Run_06_CameraConnection(baseDir,binDir):
 	os.system(cmdLine)
 	return 0
 
+
 def Run_07_DepthMap(baseDir,binDir,numImages,groupSize):
+
+	"""
+	Estimates depth maps for images using AliceVision tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+	numImages (int): The number of images to process.
+	groupSize (int): The number of images to process in each group.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/07_DepthMap")
 
 	numGroups = (numImages + (groupSize-1))/groupSize
@@ -161,7 +279,7 @@ def Run_07_DepthMap(baseDir,binDir,numImages,groupSize):
 	cmdLine = binName
 	cmdLine = cmdLine + " --sgmGammaC 5.5 --sgmWSH 4 --refineGammaP 8.0 --refineSigma 15 --refineNSamplesHalf 150 --sgmMaxTCams 10 --refineWSH 3 --downscale 2 --refineMaxTCams 6 --verboseLevel info --refineGammaC 15.5 --sgmGammaP 8.0"
 	cmdLine = cmdLine + " --refineNiters 100 --refineNDepthsToRefine 31 --refineUseTcOrRcPixSize False"
-	
+
 	cmdLine = cmdLine + " --ini \"" + srcIni + "\""
 	cmdLine = cmdLine + " --output \"" + dstDir + "\""
 
@@ -185,7 +303,20 @@ def Run_07_DepthMap(baseDir,binDir,numImages,groupSize):
 
 	return 0
 
+
 def Run_08_DepthMapFilter(baseDir,binDir):
+
+	"""
+	Filters the depth maps using AliceVision tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/08_DepthMapFilter")
 
 	binName = binDir + "\\aliceVision_depthMapFiltering.exe"
@@ -206,7 +337,20 @@ def Run_08_DepthMapFilter(baseDir,binDir):
 	os.system(cmdLine)
 	return 0
 
+
 def Run_09_Meshing(baseDir,binDir):
+
+	"""
+	Generates a 3D mesh from the filtered depth maps using AliceVision tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/09_Meshing")
 
 	binName = binDir + "\\aliceVision_meshing.exe"
@@ -225,12 +369,25 @@ def Run_09_Meshing(baseDir,binDir):
 	cmdLine = cmdLine + " --depthMapFilterFolder \"" + srcDepthFilterDir + "\""
 	cmdLine = cmdLine + " --depthMapFolder \"" + srcDepthMapDir + "\""
 	cmdLine = cmdLine + " --output \"" + dstDir + "/mesh.obj\""
-	
+
 	print(cmdLine)
 	os.system(cmdLine)
 	return 0
 
+
 def Run_10_MeshFiltering(baseDir,binDir):
+
+	"""
+	Filters the 3D mesh to improve quality using AliceVision tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/10_MeshFiltering")
 
 	binName = binDir + "\\aliceVision_meshFiltering.exe"
@@ -250,7 +407,20 @@ def Run_10_MeshFiltering(baseDir,binDir):
 
 	return 0
 
+
 def Run_11_Texturing(baseDir,binDir):
+
+	"""
+	Applies texture to the 3D mesh using AliceVision tool.
+
+	Parameters:
+	baseDir (str): The base directory for the project.
+	binDir (str): The directory where AliceVision binaries are located.
+
+	Returns:
+	int: Always returns 0.
+	"""
+
 	SilentMkdir(baseDir + "/11_Texturing")
 
 	binName = binDir + "\\aliceVision_texturing.exe"
@@ -316,7 +486,7 @@ def main():
 		Run_08_DepthMapFilter(baseDir,binDir)
 		Run_09_Meshing(baseDir,binDir)
 		Run_10_MeshFiltering(baseDir,binDir)
-	
+
 		Run_11_Texturing(baseDir,binDir)
 	elif runStep == "run00":
 		Run_00_CameraInit(baseDir,binDir,srcImageDir)
@@ -343,7 +513,7 @@ def main():
 		Run_09_Meshing(baseDir,binDir)
 	elif runStep == "run10":
 		Run_10_MeshFiltering(baseDir,binDir)
-	
+
 	elif runStep == "run11":
 		Run_11_Texturing(baseDir,binDir)
 
@@ -352,7 +522,7 @@ def main():
 
 
 
-	
+
 
 	#print("running")
 	#Run_00_CameraInit(baseDir,binDir,srcImageDir)
@@ -368,7 +538,7 @@ def main():
 	#Run_08_DepthMapFilter(baseDir,binDir)
 	#Run_09_Meshing(baseDir,binDir)
 	#Run_10_MeshFiltering(baseDir,binDir)
-	
+
 	#Run_11_Texturing(baseDir,binDir)
 	return 0
 
