@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="Update Project" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -20,6 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -63,13 +67,18 @@
     "Python.run_merge_clouds.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Tomer/Desktop/PROJECT/Photogrammetry-",
+    "last_opened_file_path": "C:/Users/Tomer/Desktop/tomer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -226,7 +235,87 @@
       <option name="project" value="LOCAL‎" />
       <updated>1718238363900</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL‎-00012" summary="add files">
+      <option name="closed" value="true" />
+      <created>1718477086807</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL‎-00012" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718477086807</updated>
+    </task>
+    <task id="LOCAL‎-00013" summary="add files">
+      <option name="closed" value="true" />
+      <created>1718482949435</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL‎-00013" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718482949435</updated>
+    </task>
+    <task id="LOCAL‎-00014" summary="1">
+      <option name="closed" value="true" />
+      <created>1718489592157</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL‎-00014" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718489592157</updated>
+    </task>
+    <task id="LOCAL‎-00015" summary="data &amp; result">
+      <option name="closed" value="true" />
+      <created>1718490106399</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL‎-00015" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718490106399</updated>
+    </task>
+    <task id="LOCAL‎-00016" summary="batch file">
+      <option name="closed" value="true" />
+      <created>1718490158378</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL‎-00016" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718490158378</updated>
+    </task>
+    <task id="LOCAL‎-00017" summary="batch file">
+      <option name="closed" value="true" />
+      <created>1718490531334</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL‎-00017" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718490531334</updated>
+    </task>
+    <task id="LOCAL‎-00018" summary="update">
+      <option name="closed" value="true" />
+      <created>1718490584349</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL‎-00018" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718490584349</updated>
+    </task>
+    <task id="LOCAL‎-00019" summary="Update Project">
+      <option name="closed" value="true" />
+      <created>1718491146520</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL‎-00019" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718491146520</updated>
+    </task>
+    <task id="LOCAL‎-00020" summary="Update Project">
+      <option name="closed" value="true" />
+      <created>1718492177753</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL‎-00020" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718492177753</updated>
+    </task>
+    <task id="LOCAL‎-00021" summary="Update Project">
+      <option name="closed" value="true" />
+      <created>1718492512580</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL‎-00021" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718492512580</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +342,14 @@
     <MESSAGE value="Task 11 Done !" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="data add" />
+    <MESSAGE value="add files" />
+    <MESSAGE value="1" />
+    <MESSAGE value="data &amp; result" />
+    <MESSAGE value="batch file" />
+    <MESSAGE value="update" />
+    <MESSAGE value="Update Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Photogrammetry$run_merge_clouds.coverage" NAME="run_merge_clouds Coverage Results" MODIFIED="1718225861633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
