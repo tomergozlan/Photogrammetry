@@ -1,0 +1,2386 @@
+{
+    "version": [
+        "1",
+        "0",
+        "0"
+    ],
+    "featuresFolders": [
+        "..\\01_FeatureExtraction"
+    ],
+    "matchesFolders": [
+        "..\\03_FeatureMatching"
+    ],
+    "views": [
+        {
+            "viewId": "281418",
+            "poseId": "281418",
+            "intrinsicId": "3739807026",
+            "resectionId": "5",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0065.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "7000692",
+            "poseId": "7000692",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0097.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "16635677",
+            "poseId": "16635677",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0036.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "19292366",
+            "poseId": "19292366",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0012.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "62563091",
+            "poseId": "62563091",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0026.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "64823111",
+            "poseId": "64823111",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0100.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "69872513",
+            "poseId": "69872513",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0096.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "72750703",
+            "poseId": "72750703",
+            "intrinsicId": "3739807026",
+            "resectionId": "17",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0071.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "106157740",
+            "poseId": "106157740",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0019.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "122593339",
+            "poseId": "122593339",
+            "intrinsicId": "3739807026",
+            "resectionId": "9",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0074.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "148862797",
+            "poseId": "148862797",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0030.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "159883320",
+            "poseId": "159883320",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0083.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "167977404",
+            "poseId": "167977404",
+            "intrinsicId": "3739807026",
+            "resectionId": "12",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0073.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "204405907",
+            "poseId": "204405907",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0002.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "251449938",
+            "poseId": "251449938",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0041.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "268847495",
+            "poseId": "268847495",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0015.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "289351068",
+            "poseId": "289351068",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0088.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "306120494",
+            "poseId": "306120494",
+            "intrinsicId": "3739807026",
+            "resectionId": "25",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0055.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "332492770",
+            "poseId": "332492770",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0044.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "362442651",
+            "poseId": "362442651",
+            "intrinsicId": "3739807026",
+            "resectionId": "11",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0059.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "413499319",
+            "poseId": "413499319",
+            "intrinsicId": "3739807026",
+            "resectionId": "2",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0077.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "433755102",
+            "poseId": "433755102",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0022.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "456750183",
+            "poseId": "456750183",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0018.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "491624696",
+            "poseId": "491624696",
+            "intrinsicId": "3739807026",
+            "resectionId": "10",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0060.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "507090750",
+            "poseId": "507090750",
+            "intrinsicId": "3739807026",
+            "resectionId": "3",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0076.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "536394572",
+            "poseId": "536394572",
+            "intrinsicId": "3739807026",
+            "resectionId": "27",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0049.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "579740000",
+            "poseId": "579740000",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0005.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "595444731",
+            "poseId": "595444731",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0028.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "626637720",
+            "poseId": "626637720",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0091.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "651405152",
+            "poseId": "651405152",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0006.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "672853355",
+            "poseId": "672853355",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0095.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "674186001",
+            "poseId": "674186001",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0098.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "683079722",
+            "poseId": "683079722",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0034.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "690665857",
+            "poseId": "690665857",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0025.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "736661850",
+            "poseId": "736661850",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0037.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "748678880",
+            "poseId": "748678880",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0039.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "750297218",
+            "poseId": "750297218",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0099.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "756063153",
+            "poseId": "756063153",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0035.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "768479201",
+            "poseId": "768479201",
+            "intrinsicId": "3739807026",
+            "resectionId": "28",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0067.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "769617110",
+            "poseId": "769617110",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0094.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "781759124",
+            "poseId": "781759124",
+            "intrinsicId": "3739807026",
+            "resectionId": "15",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0066.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "850672740",
+            "poseId": "850672740",
+            "intrinsicId": "3739807026",
+            "resectionId": "19",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0070.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "858943217",
+            "poseId": "858943217",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0033.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "897658064",
+            "poseId": "897658064",
+            "intrinsicId": "3739807026",
+            "resectionId": "6",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0075.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "971269144",
+            "poseId": "971269144",
+            "intrinsicId": "3739807026",
+            "resectionId": "22",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0050.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1005924530",
+            "poseId": "1005924530",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0024.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1039067838",
+            "poseId": "1039067838",
+            "intrinsicId": "3739807026",
+            "resectionId": "23",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0053.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1078340171",
+            "poseId": "1078340171",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0064.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1119887588",
+            "poseId": "1119887588",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0014.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1139800839",
+            "poseId": "1139800839",
+            "intrinsicId": "3739807026",
+            "resectionId": "29",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0048.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1147732554",
+            "poseId": "1147732554",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0008.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1159754689",
+            "poseId": "1159754689",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0087.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1162772251",
+            "poseId": "1162772251",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0043.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1163718206",
+            "poseId": "1163718206",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0011.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1183258497",
+            "poseId": "1183258497",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0081.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1188846234",
+            "poseId": "1188846234",
+            "intrinsicId": "3739807026",
+            "resectionId": "0",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0078.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1196896543",
+            "poseId": "1196896543",
+            "intrinsicId": "3739807026",
+            "resectionId": "21",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0052.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1223175561",
+            "poseId": "1223175561",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0013.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1242253086",
+            "poseId": "1242253086",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0003.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1256872597",
+            "poseId": "1256872597",
+            "intrinsicId": "3739807026",
+            "resectionId": "7",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0062.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1308641291",
+            "poseId": "1308641291",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0020.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1339724796",
+            "poseId": "1339724796",
+            "intrinsicId": "3739807026",
+            "resectionId": "30",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0047.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1375567567",
+            "poseId": "1375567567",
+            "intrinsicId": "3739807026",
+            "resectionId": "26",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0069.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1418904103",
+            "poseId": "1418904103",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0009.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1425359813",
+            "poseId": "1425359813",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0010.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1428487141",
+            "poseId": "1428487141",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0016.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1429073379",
+            "poseId": "1429073379",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0090.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1431199262",
+            "poseId": "1431199262",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0027.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1446198686",
+            "poseId": "1446198686",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0080.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1472528885",
+            "poseId": "1472528885",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0038.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1475597139",
+            "poseId": "1475597139",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0084.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1503000354",
+            "poseId": "1503000354",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0085.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1537327672",
+            "poseId": "1537327672",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0092.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1584042216",
+            "poseId": "1584042216",
+            "intrinsicId": "3739807026",
+            "resectionId": "4",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0063.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1615100174",
+            "poseId": "1615100174",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0086.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1646429863",
+            "poseId": "1646429863",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0046.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1647351560",
+            "poseId": "1647351560",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0021.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1664374466",
+            "poseId": "1664374466",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0017.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1693986903",
+            "poseId": "1693986903",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0001.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1707515443",
+            "poseId": "1707515443",
+            "intrinsicId": "3739807026",
+            "resectionId": "16",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0057.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1724217577",
+            "poseId": "1724217577",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0040.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1735922398",
+            "poseId": "1735922398",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0042.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1738048405",
+            "poseId": "1738048405",
+            "intrinsicId": "3739807026",
+            "resectionId": "20",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0051.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1750469169",
+            "poseId": "1750469169",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0089.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1761909473",
+            "poseId": "1761909473",
+            "intrinsicId": "3739807026",
+            "resectionId": "24",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0054.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1778338741",
+            "poseId": "1778338741",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0007.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1780862618",
+            "poseId": "1780862618",
+            "intrinsicId": "3739807026",
+            "resectionId": "13",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0058.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1789068863",
+            "poseId": "1789068863",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0023.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1911602604",
+            "poseId": "1911602604",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0032.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1923562747",
+            "poseId": "1923562747",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0045.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1928484021",
+            "poseId": "1928484021",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0093.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1960691938",
+            "poseId": "1960691938",
+            "intrinsicId": "3739807026",
+            "resectionId": "28",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0068.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1988776702",
+            "poseId": "1988776702",
+            "intrinsicId": "3739807026",
+            "resectionId": "18",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0056.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2009681629",
+            "poseId": "2009681629",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0004.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2011792801",
+            "poseId": "2011792801",
+            "intrinsicId": "3739807026",
+            "resectionId": "1",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0079.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2046133546",
+            "poseId": "2046133546",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0031.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2080441786",
+            "poseId": "2080441786",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0029.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2102469315",
+            "poseId": "2102469315",
+            "intrinsicId": "3739807026",
+            "resectionId": "8",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0061.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2118799435",
+            "poseId": "2118799435",
+            "intrinsicId": "3739807026",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0082.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "2119627969",
+            "poseId": "2119627969",
+            "intrinsicId": "3739807026",
+            "resectionId": "14",
+            "path": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4\\frame_0072.jpg",
+            "width": "1920",
+            "height": "1080",
+            "metadata": {
+                "ResolutionUnit": "none",
+                "XResolution": "1",
+                "YResolution": "1",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": "3739807026",
+            "width": "1920",
+            "height": "1080",
+            "type": "radial3",
+            "serialNumber": "D:\\Photogrammetry\\Photogrammetry\\VALIDATION\\OUTPUT_v4",
+            "pxInitialFocalLength": "-1",
+            "pxFocalLength": "1382.565226865097",
+            "principalPoint": [
+                "957.62586677059778",
+                "538.34094591396195"
+            ],
+            "distortionParams": [
+                "-0.011317259168537173",
+                "0.14688939604978207",
+                "-0.1988235563967285"
+            ],
+            "locked": "false"
+        }
+    ],
+    "poses": [
+        {
+            "poseId": "281418",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.94864068538703983",
+                        "-0.31538029734802886",
+                        "0.02482172582791491",
+                        "0.31251538465619144",
+                        "0.94642442505545388",
+                        "0.081332293780799175",
+                        "-0.049142490592154184",
+                        "-0.069397951721376056",
+                        "0.99637791019034416"
+                    ],
+                    "center": [
+                        "0.0036478120558458491",
+                        "-0.008573268542942214",
+                        "0.60016994731441531"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "72750703",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.91409791382773875",
+                        "-0.40342189484785357",
+                        "0.040936276004827216",
+                        "-0.039086437362264193",
+                        "0.1881459065219554",
+                        "0.98136301554183214",
+                        "-0.40360532002205052",
+                        "0.89546183202658047",
+                        "-0.18775210527048425"
+                    ],
+                    "center": [
+                        "-0.17140157333570483",
+                        "-1.3599498767275575",
+                        "2.3227745149354844"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "122593339",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.1216982294424519",
+                        "0.40640398657904103",
+                        "-0.90555250573516433",
+                        "-0.64476349921972653",
+                        "0.6612634537636739",
+                        "0.38341971100932076",
+                        "0.75463207659395581",
+                        "0.63052870228816715",
+                        "0.18155986496550955"
+                    ],
+                    "center": [
+                        "1.3171707646372497",
+                        "-0.61418036462235492",
+                        "1.9752974542337141"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "167977404",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.61119105809282459",
+                        "0.25766664172611764",
+                        "-0.74836715070141746",
+                        "-0.61615426534101003",
+                        "0.43858003519455335",
+                        "0.65421821591180462",
+                        "0.49678910194312198",
+                        "0.86096193555251266",
+                        "-0.10929379543330597"
+                    ],
+                    "center": [
+                        "1.0183152915400639",
+                        "-0.9988084834709795",
+                        "2.356329918026606"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "306120494",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.54329777245777422",
+                        "-0.7150184427834203",
+                        "0.43997290475891049",
+                        "0.39123692070494198",
+                        "0.24804883915456832",
+                        "0.8862310338006596",
+                        "-0.74280630201939957",
+                        "0.65362099099833371",
+                        "0.1449772320284145"
+                    ],
+                    "center": [
+                        "-1.1794633117559152",
+                        "-1.378987170608361",
+                        "1.9221398041487239"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "362442651",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.33288613668120165",
+                        "0.35122288641898902",
+                        "-0.87511673739049145",
+                        "-0.67901640348634373",
+                        "0.55467559835955538",
+                        "0.4809071681530025",
+                        "0.65431150364481228",
+                        "0.7543059489623446",
+                        "0.053842284109068383"
+                    ],
+                    "center": [
+                        "0.89326732074765935",
+                        "-1.0585764890172862",
+                        "2.391726302997303"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "413499319",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.86868365274050585",
+                        "0.089235852253892967",
+                        "-0.48726345454377507",
+                        "-0.093113757827818111",
+                        "0.9955217928130804",
+                        "0.016315273133254409",
+                        "0.48653729514251487",
+                        "0.031198120243880651",
+                        "0.87310259289997172"
+                    ],
+                    "center": [
+                        "0.56212631202572616",
+                        "0.10275473759438106",
+                        "0.69320726014815537"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "491624696",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.23284366894254988",
+                        "0.38144137874891271",
+                        "-0.89458722347879571",
+                        "-0.67160309632163895",
+                        "0.60222953998522899",
+                        "0.43158876512296607",
+                        "0.70337266569334322",
+                        "0.70130026076375296",
+                        "0.11595187539722002"
+                    ],
+                    "center": [
+                        "1.1531687846380754",
+                        "-0.64988282321943613",
+                        "1.9602285402710162"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "507090750",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.85208848697916995",
+                        "0.11859989299674935",
+                        "-0.5097835577367209",
+                        "-0.12988209194036443",
+                        "0.9914367036674776",
+                        "0.013561150915794205",
+                        "0.50702648111389981",
+                        "0.054656454350111565",
+                        "0.86019580296995779"
+                    ],
+                    "center": [
+                        "0.82281638518153954",
+                        "0.061909172458874895",
+                        "0.85547064720851651"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "536394572",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.95194283077120867",
+                        "-0.14952991501737956",
+                        "-0.26729319381195105",
+                        "-0.29535055231623414",
+                        "0.21716348207606606",
+                        "0.93038060668690514",
+                        "-0.08107341234827492",
+                        "0.96461434084689701",
+                        "-0.25089096285580537"
+                    ],
+                    "center": [
+                        "-1.1191327700040352",
+                        "-0.97762867340528803",
+                        "1.689871933623798"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "768479201",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.63733189032253734",
+                        "-0.65544369496202926",
+                        "0.4052179960372238",
+                        "0.57118308731001521",
+                        "0.75480002177899308",
+                        "0.32253187112815851",
+                        "-0.51726003358939365",
+                        "0.025893818894744819",
+                        "0.8554364779421938"
+                    ],
+                    "center": [
+                        "-0.78677084084880522",
+                        "-0.44315706382348607",
+                        "0.84611104668300929"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "781759124",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.81886302185066295",
+                        "-0.51599042879402934",
+                        "0.25143036578455391",
+                        "0.47864922152076983",
+                        "0.85561279517475175",
+                        "0.19703214831800786",
+                        "-0.31679374075755007",
+                        "-0.040995391523952859",
+                        "0.94760809604531981"
+                    ],
+                    "center": [
+                        "-0.45488854078718177",
+                        "-0.21346268701847382",
+                        "0.68449714517987736"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "850672740",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.69020280342864615",
+                        "-0.64180786318446215",
+                        "0.33421962374138414",
+                        "0.24112410477245236",
+                        "0.23148890425401458",
+                        "0.94248185834262022",
+                        "-0.68226040207308025",
+                        "0.73109202838074361",
+                        "-0.0050189442324726219"
+                    ],
+                    "center": [
+                        "-0.7503285732979097",
+                        "-1.2460023135298901",
+                        "1.9242433524875331"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "897658064",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.56257580976600607",
+                        "0.31796102432221141",
+                        "-0.76315741841253992",
+                        "-0.39366417769614248",
+                        "0.9147467875243418",
+                        "0.090922109042392507",
+                        "0.72700548379289576",
+                        "0.24927715845192638",
+                        "0.63978427990158582"
+                    ],
+                    "center": [
+                        "1.2004336707995527",
+                        "-0.12011962031389045",
+                        "1.2634158373990529"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "971269144",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.79340088062812919",
+                        "-0.55254795762115871",
+                        "0.25535425813405799",
+                        "0.17388550867781458",
+                        "0.19628587131125486",
+                        "0.96500553708019665",
+                        "-0.58333427165765483",
+                        "0.8100386479991355",
+                        "-0.059653300473366699"
+                    ],
+                    "center": [
+                        "-0.93806743572854767",
+                        "-0.92899739303916473",
+                        "1.7075393452250953"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1039067838",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.65442965025196265",
+                        "-0.65572930557904485",
+                        "0.37648494083550987",
+                        "0.31254846868130537",
+                        "0.21879030499308616",
+                        "0.92436154028929796",
+                        "-0.68850220594858291",
+                        "0.7225993912576012",
+                        "0.06176432755304051"
+                    ],
+                    "center": [
+                        "-1.2360663994152503",
+                        "-1.2898289255618958",
+                        "1.7914625321550606"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1078340171",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.9564355498162137",
+                        "-0.056411266366633774",
+                        "-0.28644163118281163",
+                        "0.060001767118018447",
+                        "0.99819116855025714",
+                        "0.0037654974421927525",
+                        "0.2857110900725981",
+                        "-0.020788459663591545",
+                        "0.95809029478141727"
+                    ],
+                    "center": [
+                        "0.43725652679647642",
+                        "0.063066237073577794",
+                        "0.68941527813432668"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1139800839",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.94980699441603678",
+                        "-0.15646171994012137",
+                        "-0.2708992498176282",
+                        "-0.30102483619660148",
+                        "0.22139755968064201",
+                        "0.92755979244481368",
+                        "-0.085151167644278006",
+                        "0.96255018090530509",
+                        "-0.25738381434732938"
+                    ],
+                    "center": [
+                        "-1.4365066378831159",
+                        "-1.0671017277241595",
+                        "1.6688852287559195"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1188846234",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.86534433242346342",
+                        "0.088432544223450732",
+                        "-0.49331417115744608",
+                        "-0.089225065814899557",
+                        "0.99576871289055302",
+                        "0.021989953583811374",
+                        "0.49317144480689207",
+                        "0.024987107684939537",
+                        "0.86957321168296342"
+                    ],
+                    "center": [
+                        "0.52852441018588159",
+                        "0.072233407871617611",
+                        "0.70747187998293826"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1196896543",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.65654635808382089",
+                        "-0.65304957763283533",
+                        "0.37745612836520054",
+                        "0.31196001722038935",
+                        "0.220518789252511",
+                        "0.9241495610789745",
+                        "-0.68675164895522878",
+                        "0.72449824895591175",
+                        "0.05894454951131789"
+                    ],
+                    "center": [
+                        "-1.0710082110745591",
+                        "-1.1059730859739401",
+                        "1.720049563426117"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1256872597",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.39309037174922346",
+                        "0.37406150386364523",
+                        "-0.83997497043978964",
+                        "-0.50117965863106895",
+                        "0.8530500729398911",
+                        "0.14534277701933412",
+                        "0.77090784754891595",
+                        "0.36384552269406151",
+                        "0.52279778710604996"
+                    ],
+                    "center": [
+                        "1.1654601038865349",
+                        "-0.20132157734163592",
+                        "1.3485682630932072"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1339724796",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.94678524278774367",
+                        "-0.16525503318278206",
+                        "-0.2762036894161824",
+                        "-0.30886854511328449",
+                        "0.22507974922734686",
+                        "0.92408837690307399",
+                        "-0.090542398239478364",
+                        "0.96022386998840659",
+                        "-0.26414426669063129"
+                    ],
+                    "center": [
+                        "-1.6468931621076708",
+                        "-1.0090484330281873",
+                        "1.7411143465845753"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1375567567",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.29156180533941722",
+                        "-0.79356086930210601",
+                        "0.53409068553917483",
+                        "0.48324022681825307",
+                        "0.35966464079824095",
+                        "0.79819811409456209",
+                        "-0.82551232386431594",
+                        "0.49081818718539572",
+                        "0.27861606248775156"
+                    ],
+                    "center": [
+                        "-1.0052480421939052",
+                        "-1.0185979654862141",
+                        "1.5143067056616319"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1446198686",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.70834763511405385",
+                        "0.22365344145642607",
+                        "-0.66949441069588045",
+                        "-0.24676969173987906",
+                        "0.96709015843868196",
+                        "0.06197858250758885",
+                        "0.66132317898810444",
+                        "0.12130854700202258",
+                        "0.74022691747688141"
+                    ],
+                    "center": [
+                        "0.52134914655531339",
+                        "0.073417947387518862",
+                        "0.71097903344607527"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1584042216",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.72817411408394705",
+                        "0.23032362414746077",
+                        "-0.64553349079473643",
+                        "-0.27777412726875106",
+                        "0.9602006700967175",
+                        "0.029261021272307883",
+                        "0.62658119489667297",
+                        "0.15800538378610396",
+                        "0.76317121597742632"
+                    ],
+                    "center": [
+                        "0.92938315052636167",
+                        "-0.016266263341714549",
+                        "1.0062139223265616"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1707515443",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.92508171885907853",
+                        "-0.37971936297303988",
+                        "0.0060843090060919147",
+                        "-0.05840939491923211",
+                        "0.15809238042404594",
+                        "0.98569525809807368",
+                        "-0.3752494583845552",
+                        "0.91149328282506159",
+                        "-0.16842754925157122"
+                    ],
+                    "center": [
+                        "-0.35960890333291096",
+                        "-1.5683516746517911",
+                        "2.5272443690245594"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1738048405",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.6576425292139485",
+                        "-0.65056676491332688",
+                        "0.37982784015825988",
+                        "0.31048155868184441",
+                        "0.22531365676481674",
+                        "0.92349063763189188",
+                        "-0.68637271615906548",
+                        "0.72525625848073427",
+                        "0.05381314009563698"
+                    ],
+                    "center": [
+                        "-0.94143306564439255",
+                        "-0.88018917231885085",
+                        "1.701599637211975"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1761909473",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.50797401179484414",
+                        "-0.72648158283450626",
+                        "0.46280332015157588",
+                        "0.41773785876173142",
+                        "0.26210131362653899",
+                        "0.86994136742219974",
+                        "-0.75329773974054592",
+                        "0.63523807442368663",
+                        "0.17033820506354858"
+                    ],
+                    "center": [
+                        "-1.2585298498142787",
+                        "-1.316496650165254",
+                        "1.807354415116734"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1780862618",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.84299666262075201",
+                        "0.064037565483974407",
+                        "-0.53409345344907533",
+                        "-0.49681075780451722",
+                        "0.28799360265523666",
+                        "0.81868110748896539",
+                        "0.20624184284469343",
+                        "0.95548881471032587",
+                        "-0.21096309445844175"
+                    ],
+                    "center": [
+                        "0.45518041478494164",
+                        "-1.3361270994050267",
+                        "2.569375262168117"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1960691938",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.26150569498958026",
+                        "-0.7905048369796811",
+                        "0.55382025441450278",
+                        "0.61293371315164558",
+                        "0.57924995976942983",
+                        "0.53738417113760439",
+                        "-0.74560514668968914",
+                        "0.19892608380713134",
+                        "0.63600422829648329"
+                    ],
+                    "center": [
+                        "-0.99084551855368019",
+                        "-0.69214721808249124",
+                        "1.0908683683321339"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "1988776702",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.75805208164161741",
+                        "-0.5913101418909259",
+                        "0.27515333473491399",
+                        "0.20555367312349118",
+                        "0.18377321337123775",
+                        "0.96123623189757579",
+                        "-0.61895454516810156",
+                        "0.78522590516624091",
+                        "-0.017763695325183515"
+                    ],
+                    "center": [
+                        "-0.95572420709433803",
+                        "-1.4897095847995687",
+                        "2.1696059244644705"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "2011792801",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "0.86321536860279069",
+                        "0.08970908801746201",
+                        "-0.49680127509399902",
+                        "-0.088290127364052326",
+                        "0.99574497776949733",
+                        "0.026396830432129124",
+                        "0.49705541020894989",
+                        "0.021076498141257071",
+                        "0.86746279482644906"
+                    ],
+                    "center": [
+                        "0.52687259004234288",
+                        "0.070355930583117648",
+                        "0.71205059327345643"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "2102469315",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.041830711425398737",
+                        "0.41166124511473412",
+                        "-0.91037641162995409",
+                        "-0.64193073989566529",
+                        "0.6871513442455699",
+                        "0.34021751171641623",
+                        "0.76562073950399789",
+                        "0.59863014405565385",
+                        "0.2355139780761609"
+                    ],
+                    "center": [
+                        "1.2154553248894084",
+                        "-0.4295299900776357",
+                        "1.6823809893341592"
+                    ]
+                },
+                "locked": "false"
+            }
+        },
+        {
+            "poseId": "2119627969",
+            "pose": {
+                "transform": {
+                    "rotation": [
+                        "-0.93462576628548366",
+                        "-0.085881999876951914",
+                        "-0.34510717044478789",
+                        "-0.35557667521391312",
+                        "0.24290489746410437",
+                        "0.90253112900983778",
+                        "0.0063170435404502345",
+                        "0.96624090830656117",
+                        "-0.25756281190385355"
+                    ],
+                    "center": [
+                        "0.41619877620207202",
+                        "-1.293606090462956",
+                        "2.4899614894113276"
+                    ]
+                },
+                "locked": "false"
+            }
+        }
+    ]
+}
