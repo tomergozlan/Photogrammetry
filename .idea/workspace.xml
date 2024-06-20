@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="UPDATE PROJECT">
+      <change afterPath="$PROJECT_DIR$/OUTPUT_v1/frame_0098.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OUTPUT_v1/frame_0099.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OUTPUT_v1/frame_0100.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/run_merge2mesh.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0001.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/OUTPUT_v1/frame_0001.jpg" afterDir="false" />
@@ -268,6 +271,7 @@
     "Python.create_and_merge_point_clouds.executor": "Run",
     "Python.main.executor": "Run",
     "Python.run_alicevision.executor": "Run",
+    "Python.run_merge2mesh.executor": "Run",
     "Python.run_merge_clouds.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -299,7 +303,30 @@
       <recent name="D:\Photogrammetry\Photogrammetry" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.run_merge2mesh">
+    <configuration name="run_merge2mesh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Photogrammetry" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_merge2mesh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run_merge_clouds" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Photogrammetry" />
       <option name="ENV_FILES" value="" />
@@ -325,6 +352,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_merge2mesh" />
         <item itemvalue="Python.run_merge_clouds" />
       </list>
     </recent_temporary>
@@ -351,6 +379,7 @@
       <workItem from="1718045593677" duration="47772000" />
       <workItem from="1718452448761" duration="94000" />
       <workItem from="1718639369391" duration="27089000" />
+      <workItem from="1718914226431" duration="709000" />
     </task>
     <task id="LOCAL‎-00001" summary="Video 2 Frame Script">
       <option name="closed" value="true" />
@@ -576,7 +605,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1718724702789</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL‎-00029" summary="UPDATE PROJECT">
+      <option name="closed" value="true" />
+      <created>1718915944805</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL‎-00029" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718915944806</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
