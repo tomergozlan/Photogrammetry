@@ -1,1 +1,1 @@
- py run_automatic_merge.py
+ py D:\Photogrammetry\Photogrammetry\run_automatic_merge.py

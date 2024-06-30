@@ -4,209 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="UPDATE PROJECT">
-      <change afterPath="$PROJECT_DIR$/run_merge2mesh.py" afterDir="false" />
+    <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="add data">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FINAL_PART/DATA/video2.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0008.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0016.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0021.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0022.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0026.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0027.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0028.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0029.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0030.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0031.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0032.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0033.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0034.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0035.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0036.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0037.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0038.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0039.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0040.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0041.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0043.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0044.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0045.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0046.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0047.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0048.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0049.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0050.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0051.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0052.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0055.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0056.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0057.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0058.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0059.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0060.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0061.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0062.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0063.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0064.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0065.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0066.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0067.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0068.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0069.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0070.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0071.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0072.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0073.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0074.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0075.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0076.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0077.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0078.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0079.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0081.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0082.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0083.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0084.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0085.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0086.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0087.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0088.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0089.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0090.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0091.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0092.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0093.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0094.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0095.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0096.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0097.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0098.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0099.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v1/frame_0100.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0002.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0003.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0004.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0005.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0006.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0007.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0008.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0009.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0016.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0018.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0019.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0021.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0022.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0026.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0027.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0028.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0029.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0030.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0031.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0032.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0033.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0034.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0035.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0036.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0037.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0038.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0039.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0040.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0041.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0043.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0044.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0045.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0046.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0047.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0048.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0049.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0050.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0051.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0052.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0055.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0056.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0057.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0058.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0059.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0060.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0061.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0062.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0063.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0064.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0065.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0066.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0067.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0068.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0069.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0070.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0071.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0072.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0073.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0074.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0075.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0076.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0077.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0078.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0079.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0081.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0082.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0083.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0084.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0085.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0086.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0087.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0088.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0089.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0090.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0091.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0092.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0093.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0094.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0095.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0096.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0097.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0098.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0099.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OUTPUT_v2/frame_0100.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BATCH_FILES/run_automatic_merge.bat" beforeDir="false" afterPath="$PROJECT_DIR$/BATCH_FILES/run_automatic_merge.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/v1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/v1.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/v2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/v2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_automatic_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_automatic_merge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,6 +75,7 @@
     "Python.create_and_merge_point_clouds.executor": "Run",
     "Python.main.executor": "Run",
     "Python.run_alicevision.executor": "Run",
+    "Python.run_automatic_merge.executor": "Run",
     "Python.run_merge2mesh.executor": "Run",
     "Python.run_merge_clouds.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -295,14 +101,37 @@
       <recent name="D:\Photogrammetry\Photogrammetry" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Photogrammetry\Photogrammetry\FINAL_PART\DATA" />
+      <recent name="D:\Photogrammetry\Photogrammetry\FINAL_PART\Litchi" />
       <recent name="D:\Photogrammetry\Photogrammetry\RUNNING_OUTPUT" />
       <recent name="D:\Photogrammetry\Photogrammetry\BATCH_FILES" />
       <recent name="D:\Photogrammetry\Photogrammetry\RESULT" />
-      <recent name="D:\Photogrammetry\Photogrammetry\VALIDATION" />
-      <recent name="D:\Photogrammetry\Photogrammetry" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.run_merge2mesh">
+  <component name="RunManager" selected="Python.run_automatic_merge">
+    <configuration name="run_automatic_merge" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Photogrammetry" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_automatic_merge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="run_merge2mesh" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Photogrammetry" />
       <option name="ENV_FILES" value="" />
@@ -351,6 +180,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_automatic_merge" />
         <item itemvalue="Python.run_merge2mesh" />
         <item itemvalue="Python.run_merge_clouds" />
       </list>
@@ -378,7 +208,7 @@
       <workItem from="1718045593677" duration="47772000" />
       <workItem from="1718452448761" duration="94000" />
       <workItem from="1718639369391" duration="27089000" />
-      <workItem from="1718914226431" duration="2467000" />
+      <workItem from="1718914226431" duration="7074000" />
     </task>
     <task id="LOCAL‎-00001" summary="Video 2 Frame Script">
       <option name="closed" value="true" />
@@ -620,7 +450,119 @@
       <option name="project" value="LOCAL‎" />
       <updated>1718917071963</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL‎-00031" summary="UPDATE PROJECT LITCHI">
+      <option name="closed" value="true" />
+      <created>1718918375204</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL‎-00031" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718918375204</updated>
+    </task>
+    <task id="LOCAL‎-00032" summary="V11">
+      <option name="closed" value="true" />
+      <created>1718919655638</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL‎-00032" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718919655638</updated>
+    </task>
+    <task id="LOCAL‎-00033" summary="V11">
+      <option name="closed" value="true" />
+      <created>1718922832021</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL‎-00033" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1718922832021</updated>
+    </task>
+    <task id="LOCAL‎-00034" summary="V11">
+      <option name="closed" value="true" />
+      <created>1719699361560</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL‎-00034" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719699361560</updated>
+    </task>
+    <task id="LOCAL‎-00035" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1719699428977</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL‎-00035" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719699428977</updated>
+    </task>
+    <task id="LOCAL‎-00036" summary="ADD NEW DATA">
+      <option name="closed" value="true" />
+      <created>1719699497418</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL‎-00036" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719699497418</updated>
+    </task>
+    <task id="LOCAL‎-00037" summary="ADD NEW DATA">
+      <option name="closed" value="true" />
+      <created>1719775669738</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL‎-00037" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719775669738</updated>
+    </task>
+    <task id="LOCAL‎-00038" summary="add video data">
+      <option name="closed" value="true" />
+      <created>1719778074082</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL‎-00038" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719778074082</updated>
+    </task>
+    <task id="LOCAL‎-00039" summary="add video">
+      <option name="closed" value="true" />
+      <created>1719778302132</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL‎-00039" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719778302132</updated>
+    </task>
+    <task id="LOCAL‎-00040" summary="add video12">
+      <option name="closed" value="true" />
+      <created>1719778343944</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL‎-00040" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719778343944</updated>
+    </task>
+    <task id="LOCAL‎-00041" summary="add video13">
+      <option name="closed" value="true" />
+      <created>1719778519611</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL‎-00041" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719778519611</updated>
+    </task>
+    <task id="LOCAL‎-00042" summary="add video14">
+      <option name="closed" value="true" />
+      <created>1719778742852</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL‎-00042" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719778742853</updated>
+    </task>
+    <task id="LOCAL‎-00043" summary="add data">
+      <option name="closed" value="true" />
+      <created>1719778817710</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL‎-00043" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719778817710</updated>
+    </task>
+    <task id="LOCAL‎-00044" summary="add data">
+      <option name="closed" value="true" />
+      <created>1719779008918</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL‎-00044" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719779008918</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,12 +581,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Video 2 Frame Script" />
-    <MESSAGE value="Video 2 Frame" />
-    <MESSAGE value="add v2.mp4" />
-    <MESSAGE value="video2Images.py.mp4" />
-    <MESSAGE value="images2model.py" />
-    <MESSAGE value="Task 11 Done !" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="data add" />
@@ -660,13 +596,25 @@
     <MESSAGE value="OUTPUT V3 VALIDATION" />
     <MESSAGE value="model v3" />
     <MESSAGE value="UPDATE PROJECT" />
-    <option name="LAST_COMMIT_MESSAGE" value="UPDATE PROJECT" />
+    <MESSAGE value="UPDATE PROJECT LITCHI" />
+    <MESSAGE value="V11" />
+    <MESSAGE value="README.md" />
+    <MESSAGE value="ADD NEW DATA" />
+    <MESSAGE value="add video data" />
+    <MESSAGE value="add video" />
+    <MESSAGE value="add video12" />
+    <MESSAGE value="add video13" />
+    <MESSAGE value="add video14" />
+    <MESSAGE value="add data" />
+    <option name="LAST_COMMIT_MESSAGE" value="add data" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Photogrammetry$python_run_images2model_py__baseDir___imgDir___binDir___numImages___runStep_.coverage" NAME="python run_images2model.py &lt;baseDir&gt; &lt;imgDir&gt; &lt;binDir&gt; &lt;numImages&gt; &lt;runStep&gt; Coverage Results" MODIFIED="1719694656409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Photogrammetry$run_merge_clouds.coverage" NAME="run_merge_clouds Coverage Results" MODIFIED="1718225861633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Photogrammetry$run_automatic_merge.coverage" NAME="run_automatic_merge Coverage Results" MODIFIED="1719702192758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Photogrammetry$main.coverage" NAME="main Coverage Results" MODIFIED="1715804979886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Photogrammetry$create_and_merge_point_clouds.coverage" NAME="create_and_merge_point_clouds Coverage Results" MODIFIED="1717280745152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Photogrammetry$run_alicevision.coverage" NAME="run_alicevision Coverage Results" MODIFIED="1717362126651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Photogrammetry$run_merge2mesh.coverage" NAME="run_merge2mesh Coverage Results" MODIFIED="1718915965966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Photogrammetry$run_merge2mesh.coverage" NAME="run_merge2mesh Coverage Results" MODIFIED="1719702184438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
