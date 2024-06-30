@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="add data">
+    <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="update code">
       <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/DATA/video2.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BATCH_FILES/run_automatic_merge.bat" beforeDir="false" afterPath="$PROJECT_DIR$/BATCH_FILES/run_automatic_merge.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DATA/v1.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/v1.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DATA/v2.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/v2.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_automatic_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_automatic_merge.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -562,7 +558,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1719779008918</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL‎-00045" summary="update code">
+      <option name="closed" value="true" />
+      <created>1719779824448</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL‎-00045" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719779824448</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -581,7 +585,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="data add" />
     <MESSAGE value="add files" />
@@ -606,7 +609,8 @@
     <MESSAGE value="add video13" />
     <MESSAGE value="add video14" />
     <MESSAGE value="add data" />
-    <option name="LAST_COMMIT_MESSAGE" value="add data" />
+    <MESSAGE value="update code" />
+    <option name="LAST_COMMIT_MESSAGE" value="update code" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Photogrammetry$python_run_images2model_py__baseDir___imgDir___binDir___numImages___runStep_.coverage" NAME="python run_images2model.py &lt;baseDir&gt; &lt;imgDir&gt; &lt;binDir&gt; &lt;numImages&gt; &lt;runStep&gt; Coverage Results" MODIFIED="1719694656409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
