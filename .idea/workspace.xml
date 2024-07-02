@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="up to date">
+    <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="Add Video1 frames">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,31 +63,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.create_and_merge_point_clouds.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.run_alicevision.executor": "Run",
-    "Python.run_automatic_merge.executor": "Run",
-    "Python.run_merge2mesh.executor": "Run",
-    "Python.run_merge_clouds.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Photogrammetry/Photogrammetry/RUNNING_OUTPUT",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.create_and_merge_point_clouds.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_alicevision.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_automatic_merge.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_merge2mesh.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_merge_clouds.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Photogrammetry/Photogrammetry/RUNNING_OUTPUT&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Photogrammetry\Photogrammetry\OUTPUT" />
@@ -203,6 +203,7 @@
       <workItem from="1718452448761" duration="94000" />
       <workItem from="1718639369391" duration="27089000" />
       <workItem from="1718914226431" duration="7074000" />
+      <workItem from="1719809765899" duration="1803000" />
     </task>
     <task id="LOCAL‎-00001" summary="Video 2 Frame Script">
       <option name="closed" value="true" />
@@ -580,7 +581,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1719780501039</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL‎-00048" summary="Add Video1 frames">
+      <option name="closed" value="true" />
+      <created>1719788431572</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL‎-00048" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1719788431572</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +608,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="data add" />
     <MESSAGE value="add files" />
     <MESSAGE value="1" />
     <MESSAGE value="data &amp; result" />
@@ -624,7 +632,8 @@
     <MESSAGE value="add data" />
     <MESSAGE value="update code" />
     <MESSAGE value="up to date" />
-    <option name="LAST_COMMIT_MESSAGE" value="up to date" />
+    <MESSAGE value="Add Video1 frames" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Video1 frames" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Photogrammetry$python_run_images2model_py__baseDir___imgDir___binDir___numImages___runStep_.coverage" NAME="python run_images2model.py &lt;baseDir&gt; &lt;imgDir&gt; &lt;binDir&gt; &lt;numImages&gt; &lt;runStep&gt; Coverage Results" MODIFIED="1719694656409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
