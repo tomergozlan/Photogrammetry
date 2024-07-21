@@ -1,0 +1,135 @@
+<html><head>
+<link rel="stylesheet" type="text/css" href="http://jsxgraph.uni-bayreuth.de/distrib/jsxgraph.css" />
+<link rel="stylesheet" type="text/css" href="http://imagine.enpc.fr/~moulonp/style.css" /><script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jsxgraph/0.93/jsxgraphcore.js"></script>
+<title>[log] Sequential SfM reconstruction</title>
+</head>
+<h1>[log] Sequential SfM reconstruction</h1>
+<hr>Dataset info:Views count: 100<br><h3>Essential Matrix.</h3>
+
+<b>Robust Essential matrix:</b><br>-> View I:<br>id: 858943217<br>image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0033.jpg<br>-> View J:<br>id: 1428487141<br>image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0016.jpg<br><br>- Threshold: 5.74221<br>- Resection status: OK<br>- # points used for robust Essential matrix estimation: 1663<br>- # points validated by robust estimation: 1658<br>- % points validated: 0.996993<br><h3>Initial triangulation - Residual of the robust estimation.<br>Thresholded at: 5.74221</h3>
+<h3>Histogram of residuals</h3>
+
+<div id="InitialPairTriangulationKeptInfo" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('InitialPairTriangulationKeptInfo', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.11111,0.22222,0.33333,0.44444,0.55556,0.66667,0.77778,0.88889,1.00000,];
+var data1= [0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,0.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+var p2 = board.create('point',[5.74221,0.00000], {fixed:true});
+var p3 = board.create('point',[5.74221,0.00000], {fixed:true});
+var li = board.create('line',[p2,p3], {strokeColor:'00ff00',strokeWidth:2});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.20000,0.00000,1.20000,0.00000]);
+</script>
+<hr><h4>Robust resection of view 268847495: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0015.jpg<br>- Threshold (error max): 23.9556<br>- Resection status: OK<br>- # points used for Resection: 705<br>- # points validated by robust estimation: 694<br>- % points validated: 0.984397<br><h4>Robust resection of view 683079722: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0034.jpg<br>- Threshold (error max): 56.8495<br>- Resection status: OK<br>- # points used for Resection: 259<br>- # points validated by robust estimation: 253<br>- % points validated: 0.976834<br><h4>Robust resection of view 1664374466: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0017.jpg<br>- Threshold (error max): 13.867<br>- Resection status: OK<br>- # points used for Resection: 257<br>- # points validated by robust estimation: 254<br>- % points validated: 0.988327<br><h4>Robust resection of view 756063153: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0035.jpg<br>- Threshold (error max): 40.3712<br>- Resection status: OK<br>- # points used for Resection: 118<br>- # points validated by robust estimation: 104<br>- % points validated: 0.881356<br><h4>Robust resection of view 1911602604: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0032.jpg<br>- Threshold (error max): 26.5309<br>- Resection status: OK<br>- # points used for Resection: 35<br>- # points validated by robust estimation: 35<br>- % points validated: 1<br><h4>Robust resection of view 1119887588: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0014.jpg<br>- Threshold (error max): 6.1849<br>- Resection status: OK<br>- # points used for Resection: 88<br>- # points validated by robust estimation: 84<br>- % points validated: 0.954545<br><h4>Robust resection of view 2046133546: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0031.jpg<br>- Threshold (error max): 5.05877<br>- Resection status: OK<br>- # points used for Resection: 135<br>- # points validated by robust estimation: 128<br>- % points validated: 0.948148<br><h4>Robust resection of view 456750183: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0018.jpg<br>- Threshold (error max): 14.9028<br>- Resection status: OK<br>- # points used for Resection: 57<br>- # points validated by robust estimation: 52<br>- % points validated: 0.912281<br><h4>Robust resection of view 16635677: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0036.jpg<br>- Threshold (error max): 3.48151<br>- Resection status: OK<br>- # points used for Resection: 38<br>- # points validated by robust estimation: 24<br>- % points validated: 0.631579<br><h4>Robust resection of view 1223175561: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0013.jpg<br>- Threshold (error max): 3.2723<br>- Resection status: OK<br>- # points used for Resection: 119<br>- # points validated by robust estimation: 108<br>- % points validated: 0.907563<br><h4>Robust resection of view 736661850: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0037.jpg<br>- Threshold (error max): 5.03569<br>- Resection status: OK<br>- # points used for Resection: 33<br>- # points validated by robust estimation: 24<br>- % points validated: 0.727273<br><h4>Robust resection of view 106157740: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0019.jpg<br>- Threshold (error max): 21.6923<br>- Resection status: OK<br>- # points used for Resection: 25<br>- # points validated by robust estimation: 24<br>- % points validated: 0.96<br><h4>Robust resection of view 148862797: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0030.jpg<br>- Threshold (error max): 6.42892<br>- Resection status: OK<br>- # points used for Resection: 41<br>- # points validated by robust estimation: 39<br>- % points validated: 0.951219<br><h4>Robust resection of view 19292366: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0012.jpg<br>- Threshold (error max): 3.53204<br>- Resection status: OK<br>- # points used for Resection: 72<br>- # points validated by robust estimation: 70<br>- % points validated: 0.972222<br><h4>Robust resection of view 1308641291: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0020.jpg<br>- Threshold (error max): 7.68019<br>- Resection status: OK<br>- # points used for Resection: 57<br>- # points validated by robust estimation: 48<br>- % points validated: 0.842105<br><h4>Robust resection of view 2080441786: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0029.jpg<br>- Threshold (error max): 6.24421<br>- Resection status: OK<br>- # points used for Resection: 165<br>- # points validated by robust estimation: 162<br>- % points validated: 0.981818<br><h4>Robust resection of view 1472528885: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0038.jpg<br>- Threshold (error max): 2.63251<br>- Resection status: OK<br>- # points used for Resection: 44<br>- # points validated by robust estimation: 28<br>- % points validated: 0.636364<br><h4>Robust resection of view 1163718206: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0011.jpg<br>- Threshold (error max): 7.92579<br>- Resection status: OK<br>- # points used for Resection: 45<br>- # points validated by robust estimation: 40<br>- % points validated: 0.888889<br><h4>Robust resection of view 595444731: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0028.jpg<br>- Threshold (error max): 5.28156<br>- Resection status: OK<br>- # points used for Resection: 174<br>- # points validated by robust estimation: 168<br>- % points validated: 0.965517<br><h4>Robust resection of view 1425359813: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0010.jpg<br>- Threshold (error max): 13.6372<br>- Resection status: OK<br>- # points used for Resection: 407<br>- # points validated by robust estimation: 403<br>- % points validated: 0.990172<br><h4>Robust resection of view 1418904103: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0009.jpg<br>- Threshold (error max): 4.91609<br>- Resection status: OK<br>- # points used for Resection: 767<br>- # points validated by robust estimation: 725<br>- % points validated: 0.945241<br><h4>Robust resection of view 1147732554: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0008.jpg<br>- Threshold (error max): 4.3081<br>- Resection status: OK<br>- # points used for Resection: 676<br>- # points validated by robust estimation: 629<br>- % points validated: 0.930473<br><h4>Robust resection of view 1778338741: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0007.jpg<br>- Threshold (error max): 9.01749<br>- Resection status: OK<br>- # points used for Resection: 1083<br>- # points validated by robust estimation: 1056<br>- % points validated: 0.975069<br><h4>Robust resection of view 1431199262: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0027.jpg<br>- Threshold (error max): 7.7598<br>- Resection status: OK<br>- # points used for Resection: 1787<br>- # points validated by robust estimation: 1695<br>- % points validated: 0.948517<br><h4>Robust resection of view 651405152: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0006.jpg<br>- Threshold (error max): 12.1077<br>- Resection status: OK<br>- # points used for Resection: 279<br>- # points validated by robust estimation: 256<br>- % points validated: 0.917563<br><h4>Robust resection of view 1647351560: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0021.jpg<br>- Threshold (error max): 34.5364<br>- Resection status: OK<br>- # points used for Resection: 365<br>- # points validated by robust estimation: 346<br>- % points validated: 0.947945<br><h4>Robust resection of view 433755102: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0022.jpg<br>- Threshold (error max): 23.9594<br>- Resection status: OK<br>- # points used for Resection: 200<br>- # points validated by robust estimation: 165<br>- % points validated: 0.825<br><h4>Robust resection of view 748678880: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0039.jpg<br>- Threshold (error max): 189.211<br>- Resection status: FAILED<br>- # points used for Resection: 19<br>- # points validated by robust estimation: 19<br>- % points validated: 1<br><h4>Robust resection of view 1789068863: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0023.jpg<br>- Threshold (error max): 11.8356<br>- Resection status: OK<br>- # points used for Resection: 32<br>- # points validated by robust estimation: 29<br>- % points validated: 0.90625<br><h4>Robust resection of view 1039067838: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0053.jpg<br>- Threshold (error max): 34.7369<br>- Resection status: FAILED<br>- # points used for Resection: 13<br>- # points validated by robust estimation: 13<br>- % points validated: 1<br><h4>Robust resection of view 1761909473: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0054.jpg<br>- Threshold (error max): 43.6994<br>- Resection status: OK<br>- # points used for Resection: 23<br>- # points validated by robust estimation: 23<br>- % points validated: 1<br><h4>Robust resection of view 122593339: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0074.jpg<br>- Threshold (error max): 12.868<br>- Resection status: FAILED<br>- # points used for Resection: 9<br>- # points validated by robust estimation: 8<br>- % points validated: 0.888889<br><h4>Robust resection of view 62563091: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0026.jpg<br>- Threshold (error max): 6.30315<br>- Resection status: FAILED<br>- # points used for Resection: 13<br>- # points validated by robust estimation: 13<br>- % points validated: 1<br><h4>Robust resection of view 1724217577: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0040.jpg<br>- Threshold (error max): 18.2974<br>- Resection status: FAILED<br>- # points used for Resection: 11<br>- # points validated by robust estimation: 10<br>- % points validated: 0.909091<br><h4>Robust resection of view 579740000: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0005.jpg<br>- Threshold (error max): 9.94532<br>- Resection status: FAILED<br>- # points used for Resection: 12<br>- # points validated by robust estimation: 12<br>- % points validated: 1<br><h4>Robust resection of view 251449938: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0041.jpg<br>- Threshold (error max): 6.47162<br>- Resection status: FAILED<br>- # points used for Resection: 14<br>- # points validated by robust estimation: 11<br>- % points validated: 0.785714<br><h4>Robust resection of view 1735922398: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0042.jpg<br>- Threshold (error max): 6.05142<br>- Resection status: FAILED<br>- # points used for Resection: 17<br>- # points validated by robust estimation: 17<br>- % points validated: 1<br><h4>Robust resection of view 1242253086: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0003.jpg<br>- Threshold (error max): 0<br>- Resection status: FAILED<br>- # points used for Resection: 3<br>- # points validated by robust estimation: 0<br>- % points validated: 0<br><h4>Robust resection of view 1780862618: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0058.jpg<br>- Threshold (error max): 0<br>- Resection status: FAILED<br>- # points used for Resection: 2<br>- # points validated by robust estimation: 0<br>- % points validated: 0<br><h4>Robust resection of view 2009681629: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0004.jpg<br>- Threshold (error max): 0<br>- Resection status: FAILED<br>- # points used for Resection: 2<br>- # points validated by robust estimation: 0<br>- % points validated: 0<br><h4>Robust resection of view 1707515443: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0057.jpg<br>- Threshold (error max): 0<br>- Resection status: FAILED<br>- # points used for Resection: 1<br>- # points validated by robust estimation: 0<br>- % points validated: 0<br><h4>Robust resection of view 1738048405: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0051.jpg<br>- Threshold (error max): 0<br>- Resection status: FAILED<br>- # points used for Resection: 1<br>- # points validated by robust estimation: 0<br>- % points validated: 0<br><h4>Robust resection of view 2102469315: <br></h4>
+
+- Image path: D:\Photogrammetry\Photogrammetry\FINAL_PART\OUTPUT_V11\frame_0061.jpg<br>- Threshold (error max): 0<br>- Resection status: FAILED<br>- # points used for Resection: 1<br>- # points validated by robust estimation: 0<br>- % points validated: 0<br><hr><h3>Structure from Motion process finished.</h3>
+Structure from Motion statistics:<br>- # input images: 100<br>- # camera calibrated: 31<br>- # landmarks: 13161<br>- elapsed time: 105.639<br>- residual RMSE: 0.766794<h2>Histogram of reprojection-residuals</h2>
+
+<div id="3DtoImageResiduals" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoImageResiduals', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [0.00000,0.44107,0.88213,1.32320,1.76426,2.20533,2.64639,3.08746,3.52852,3.96959,];
+var data1= [36409.00000,17130.00000,8537.00000,4110.00000,2042.00000,1064.00000,489.00000,225.00000,110.00000,22.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([-0.79391,43686.40000,4.76350,-7255.40000]);
+</script>
+
+<div id="3DtoTracksSize" class="jxgbox" style="width:600px; height:300px;"></div>
+<script type="text/javascript">
+var board = JXG.JSXGraph.initBoard('3DtoTracksSize', {boundingbox: [-10, 10, 10, -10], axis:true,showCopyright:false});
+board.suspendUpdate();
+var data0= [2.00000,3.12500,4.25000,5.37500,6.50000,7.62500,8.75000,9.87500,11.00000,];
+var data1= [8323.00000,2637.00000,1203.00000,535.00000,289.00000,117.00000,42.00000,14.00000,1.00000,];
+board.createElement('chart', [ data0,data1], {chartStyle:'line,point',labels:[ data0,data1]});
+board.unsuspendUpdate();
+board.setBoundingBox([0.20000,9987.40000,12.80000,-1663.40000]);
+</script>
+</html>
