@@ -524,27 +524,22 @@ def main():
 
 
 
-	#print("running")
-	#Run_00_CameraInit(baseDir,binDir,srcImageDir)
-	#Run_01_FeatureExtraction(baseDir,binDir,numImages)
-	#Run_02_ImageMatching(baseDir,binDir)
-	#Run_03_FeatureMatching(baseDir,binDir)
-	#Run_04_StructureFromMotion(baseDir,binDir)
-	#Run_05_PrepareDenseScene(baseDir,binDir)
+	print("running")
+	Run_00_CameraInit(baseDir,binDir,srcImageDir)
+	Run_01_FeatureExtraction(baseDir,binDir,numImages)
+	Run_02_ImageMatching(baseDir,binDir)
+	Run_03_FeatureMatching(baseDir,binDir)
+	Run_04_StructureFromMotion(baseDir,binDir)
+	Run_05_PrepareDenseScene(baseDir,binDir)
 
-	#Run_06_CameraConnection(baseDir,binDir)
+	Run_06_CameraConnection(baseDir,binDir)
 
-	#Run_07_DepthMap(baseDir,binDir,numImages,3)
-	#Run_08_DepthMapFilter(baseDir,binDir)
-	#Run_09_Meshing(baseDir,binDir)
-	#Run_10_MeshFiltering(baseDir,binDir)
+	Run_07_DepthMap(baseDir,binDir,numImages,3)
+	Run_08_DepthMapFilter(baseDir,binDir)
+	Run_09_Meshing(baseDir,binDir)
+	Run_10_MeshFiltering(baseDir,binDir)
 
-	#Run_11_Texturing(baseDir,binDir)
+	Run_11_Texturing(baseDir,binDir)
 	return 0
 
-
-
 main()
-
-
-
