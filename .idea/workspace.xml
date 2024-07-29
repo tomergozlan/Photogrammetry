@@ -5,25 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="Fix Scripts &amp; Merge Models">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V11_V12/colored_cloud_1.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V11_V12/colored_cloud_1_REGISTERED_2024-07-28_22h00_56_451.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V11_V12/colored_cloud_1_REGISTERED_MERGED_2024-07-28_22h00_56_969.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V11_V12/colored_cloud_1_REGISTRATION_MATRIX_2024-07-28_22h00.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V11_V12/colored_cloud_2.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V11_V12/merged_output.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V13_V14/colored_cloud_1.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V13_V14/colored_cloud_1_REGISTERED_2024-07-28_21h51_08_168.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V13_V14/colored_cloud_1_REGISTERED_MERGED_2024-07-28_21h51_08_686.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V13_V14/colored_cloud_1_REGISTRATION_MATRIX_2024-07-28_21h51.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V13_V14/colored_cloud_2.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGED_CLOUDS_V13_V14/merged_output.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGE_OUTPUT/colored_cloud_1.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGE_OUTPUT/colored_cloud_1_REGISTERED_2024-07-28_21h53_40_127.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGE_OUTPUT/colored_cloud_1_REGISTERED_MERGED_2024-07-28_21h53_40_647.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGE_OUTPUT/colored_cloud_1_REGISTRATION_MATRIX_2024-07-28_21h53.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGE_OUTPUT/colored_cloud_2.ply" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FINAL_PART/MERGE_OUTPUT/merged_output.ply" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FINAL_PART/MODEL_V14/04_StructureFromMotion/bundle.sfm" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FINAL_PART/MODEL_V14/04_StructureFromMotion/localBA/K2514516861.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -830,23 +811,7 @@
       <workItem from="1720459069375" duration="35637000" />
       <workItem from="1720905682116" duration="36045000" />
       <workItem from="1721594236180" duration="17813000" />
-      <workItem from="1722183956407" duration="27168000" />
-    </task>
-    <task id="LOCAL‎-00030" summary="UPDATE PROJECT">
-      <option name="closed" value="true" />
-      <created>1718917071963</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL‎-00030" />
-      <option name="project" value="LOCAL‎" />
-      <updated>1718917071963</updated>
-    </task>
-    <task id="LOCAL‎-00031" summary="UPDATE PROJECT LITCHI">
-      <option name="closed" value="true" />
-      <created>1718918375204</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL‎-00031" />
-      <option name="project" value="LOCAL‎" />
-      <updated>1718918375204</updated>
+      <workItem from="1722183956407" duration="28376000" />
     </task>
     <task id="LOCAL‎-00032" summary="V11">
       <option name="closed" value="true" />
@@ -1224,7 +1189,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1722286048906</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL‎-00079" summary="Fix Scripts &amp; Merge Models">
+      <option name="closed" value="true" />
+      <created>1722289207747</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL‎-00079" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1722289207748</updated>
+    </task>
+    <task id="LOCAL‎-00080" summary="Fix Scripts &amp; Merge Models">
+      <option name="closed" value="true" />
+      <created>1722289260620</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL‎-00080" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1722289260620</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
