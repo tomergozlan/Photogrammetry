@@ -57,9 +57,8 @@ Before you begin, ensure you have the following tools installed:
 ## Installation
 1. Clone the project repository:
    ```bash
-   git clone [repository link]
+   git clone https://github.com/tomergozlan/Photogrammetry.git
    ```
-   cd [repository folder](https://github.com/tomergozlan/Photogrammetry.git)
 2. Install the required Python libraries:
    ```bash
    pip install -r requirements.txt
