@@ -24,7 +24,12 @@ The project uses the following videos:
 - [Video 1](https://youtu.be/DszOxc3r-WM)
 - [Video 2](https://www.youtube.com/watch?v=Q-O_Y_3ypn4)
 - [Video 3](https://youtu.be/LXzSFUHa5mM)
-
+- [Video 11](https://youtu.be/J7p7T-5Gd7w)
+- [Video 12](https://youtu.be/ZAWOOhHnfSU)
+- [Video 13](https://youtu.be/qbd-1EMVmr0)
+- [Video 14](https://youtu.be/Cn0nHiUIRhs)
+- [Video1](https://youtu.be/4djIhBzJtvk)
+- [Video2](https://youtu.be/ftd4qKVyo6Q)
 ## Tasks
 ### Part 1
 1. Research and summarize the field of photogrammetry.
@@ -53,27 +58,29 @@ Before you begin, ensure you have the following tools installed:
 1. Clone the project repository:
    ```bash
    git clone [repository link]
-   cd [repository folder]
+   ```
+   cd [repository folder](https://github.com/tomergozlan/Photogrammetry.git)
 2. Install the required Python libraries:
    ```bash
    pip install -r requirements.txt
- 
+   ```
+
 ## Running the Project
 ### Video to Images
 Extract frames from video using the run_video2images.py script:
 ```bash
 python run_video2images.py video_path output_folder --overlap_threshold 0.2 --height_threshold 50
-
+ ```
 ### Images to Model
 Generate 3D models from images using the run_images2model.py script:
 ```bash
 python run_images2model.py <baseDir> <imgDir> <binDir> <numImages> <runStep>
-
+ ```
 ### Merging Point Clouds
 Merge point clouds using the run_merge_clouds.py script:
 ```bash
 python run_merge_clouds.py <point_cloud_1> <point_cloud_2> <output_path> [--color_pc1 <R,G,B>] [--color_pc2 <R,G,B>]
-
+ ```
 ## Contributing
 If you would like to contribute to this project, please follow these steps:
 

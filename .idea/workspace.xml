@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="Fix Scripts &amp; Merge Models">
+    <list default="true" id="c7af3e93-fdd8-4c2e-b674-d0bf2af677d4" name="Changes" comment="README.md">
       <change afterPath="$PROJECT_DIR$/FINAL_PART/MODEL_V14/04_StructureFromMotion/bundle.sfm" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/FINAL_PART/MODEL_V14/04_StructureFromMotion/localBA/K2514516861.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -608,6 +608,7 @@
       <change beforePath="$PROJECT_DIR$/FINAL_PART/OUTPUT_video2/frame_0098.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FINAL_PART/OUTPUT_video2/frame_0098.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FINAL_PART/OUTPUT_video2/frame_0099.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FINAL_PART/OUTPUT_video2/frame_0099.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FINAL_PART/OUTPUT_video2/frame_0100.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/FINAL_PART/OUTPUT_video2/frame_0100.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -811,15 +812,7 @@
       <workItem from="1720459069375" duration="35637000" />
       <workItem from="1720905682116" duration="36045000" />
       <workItem from="1721594236180" duration="17813000" />
-      <workItem from="1722183956407" duration="28376000" />
-    </task>
-    <task id="LOCAL‎-00032" summary="V11">
-      <option name="closed" value="true" />
-      <created>1718919655638</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL‎-00032" />
-      <option name="project" value="LOCAL‎" />
-      <updated>1718919655638</updated>
+      <workItem from="1722183956407" duration="28730000" />
     </task>
     <task id="LOCAL‎-00033" summary="V11">
       <option name="closed" value="true" />
@@ -1205,7 +1198,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1722289260620</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL‎-00081" summary="README.md">
+      <option name="closed" value="true" />
+      <created>1722289944302</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL‎-00081" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1722289944302</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1228,7 +1229,6 @@
     <MESSAGE value="UPDATE PROJECT" />
     <MESSAGE value="UPDATE PROJECT LITCHI" />
     <MESSAGE value="V11" />
-    <MESSAGE value="README.md" />
     <MESSAGE value="ADD NEW DATA" />
     <MESSAGE value="add video data" />
     <MESSAGE value="add video" />
@@ -1249,7 +1249,8 @@
     <MESSAGE value="Create Model_video2" />
     <MESSAGE value="Models Result" />
     <MESSAGE value="Fix Scripts &amp; Merge Models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix Scripts &amp; Merge Models" />
+    <MESSAGE value="README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.md" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Photogrammetry$python_run_images2model_py__baseDir___imgDir___binDir___numImages___runStep_.coverage" NAME="python run_images2model.py &lt;baseDir&gt; &lt;imgDir&gt; &lt;binDir&gt; &lt;numImages&gt; &lt;runStep&gt; Coverage Results" MODIFIED="1719694656409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
