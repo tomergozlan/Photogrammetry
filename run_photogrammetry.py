@@ -10,8 +10,11 @@ import webbrowser
 from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
-from rich.layout import Layout
 from rich.text import Text
+import os
+import subprocess
+import pandas as pd
+from sklearn.decomposition import PCA
 
 console = Console()
 
@@ -396,6 +399,11 @@ def find_transformation_matrix(df_source, df_target):
     r = pca_target.components_.T @ pca_source.components_
     return r
 
+import os
+import subprocess
+import pandas as pd
+from sklearn.decomposition import PCA
+
 def merge_point_clouds(output_folder, point_cloud_1, point_cloud_2, color_pc1=None, color_pc2=None):
     print("\033[95mStarting point cloud merge process...\033[0m")
     cc_executable = r"C:\Program Files\CloudCompare\CloudCompare.exe"
@@ -405,28 +413,13 @@ def merge_point_clouds(output_folder, point_cloud_1, point_cloud_2, color_pc1=No
     header1, df1 = read_ply(point_cloud_1)
     header2, df2 = read_ply(point_cloud_2)
 
-    size1 = bounding_box_size(df1)
-    size2 = bounding_box_size(df2)
+    # Ensure scaling is consistent
+    df1, df2 = ensure_consistent_scale(df1, df2)
 
-    largest_dimension_1 = size1.max()
-    largest_dimension_2 = size2.max()
+    # Refine alignment using ICP with strict parameters
+    df1, df2 = refine_alignment_with_icp(df1, df2)
 
-    if largest_dimension_1 > largest_dimension_2:
-        scale_factor = largest_dimension_1 / largest_dimension_2
-        df2 = scale_point_cloud(df2, scale_factor)
-    else:
-        scale_factor = largest_dimension_2 / largest_dimension_1
-        df1 = scale_point_cloud(df1, scale_factor)
-
-    df1 = translate_to_origin(df1)
-    df2 = translate_to_origin(df2)
-
-    df1 = normalize_point_cloud(df1)
-    df2 = normalize_point_cloud(df2)
-
-    r = find_transformation_matrix(df1, df2)
-    df2[['x', 'y', 'z']] = df2[['x', 'y', 'z']].dot(r.T)
-
+    # Optional: Apply color to point clouds
     if color_pc1:
         color1 = list(map(int, color_pc1.split(',')))
         df1 = color_point_cloud(df1, color1)
@@ -435,24 +428,27 @@ def merge_point_clouds(output_folder, point_cloud_1, point_cloud_2, color_pc1=No
         color2 = list(map(int, color_pc2.split(',')))
         df2 = color_point_cloud(df2, color2)
 
+    # Write the colored point clouds to files
     colored_point_cloud_1 = os.path.join(output_folder, "colored_cloud_1.ply")
     colored_point_cloud_2 = os.path.join(output_folder, "colored_cloud_2.ply")
 
     write_ply(colored_point_cloud_1, header1, df1)
     write_ply(colored_point_cloud_2, header2, df2)
 
+    # Use CloudCompare's command-line tool to merge and save the point clouds
     align_merge_command = [
         cc_executable,
+        "-VERBOSITY", "1",  # Standard verbosity
         "-o", colored_point_cloud_1,
         "-o", colored_point_cloud_2,
-        "-ICP",
-        "-MIN_ERROR_DIFF", "1e-6",
-        "-ITER", "200",
-        "-OVERLAP", "50",
-        "-RANDOM_SAMPLING_LIMIT", "20000",
-        "-MERGE_CLOUDS",
-        "-C_EXPORT_FMT", "PLY",
-        "-SAVE_CLOUDS", "FILE", output_path
+        "-ICP",  # Perform ICP alignment
+        "-MIN_ERROR_DIFF", "1e-6",  # Minimum error difference
+        "-ITER", "500",  # Increase max iterations for better alignment
+        "-OVERLAP", "75",  # Adjust overlap expectation
+        "-RANDOM_SAMPLING_LIMIT", "50000",  # Increase sampling points
+        "-MERGE_CLOUDS",  # Merge after alignment
+        "-C_EXPORT_FMT", "PLY",  # Export as PLY
+        "-SAVE_CLOUDS", "FILE", output_path  # Save merged cloud
     ]
 
     try:
@@ -470,6 +466,35 @@ def merge_point_clouds(output_folder, point_cloud_1, point_cloud_2, color_pc1=No
         print(f"File {output_path} was created successfully.")
     else:
         print(f"File {output_path} was not created.")
+
+def ensure_consistent_scale(df1, df2):
+    size1 = bounding_box_size(df1)
+    size2 = bounding_box_size(df2)
+
+    largest_dimension_1 = size1.max()
+    largest_dimension_2 = size2.max()
+
+    if largest_dimension_1 > largest_dimension_2:
+        scale_factor = largest_dimension_1 / largest_dimension_2
+        df2 = scale_point_cloud(df2, scale_factor)
+    else:
+        scale_factor = largest_dimension_2 / largest_dimension_1
+        df1 = scale_point_cloud(df1, scale_factor)
+
+    return df1, df2
+
+def refine_alignment_with_icp(df1, df2):
+    df1 = translate_to_origin(df1)
+    df2 = translate_to_origin(df2)
+
+    df1 = normalize_point_cloud(df1)
+    df2 = normalize_point_cloud(df2)
+
+    r = find_transformation_matrix(df1, df2)
+    df2[['x', 'y', 'z']] = df2[['x', 'y', 'z']].dot(r.T)
+
+    return df1, df2
+
 
 def open_project_report():
     overleaf_url = "https://www.overleaf.com/project/your_project_id"  # Replace with your Overleaf project URL
@@ -490,6 +515,9 @@ def open_point_cloud_in_cloudcompare(file_path):
         console.print(f"An error occurred while opening {file_path} in CloudCompare: {e}", style="bold red")
     except FileNotFoundError:
         console.print("CloudCompare executable not found. Please check the path to CloudCompare.", style="bold red")
+    finally:
+        input("Press Enter to return to the menu...")
+
 
 
 def main():
