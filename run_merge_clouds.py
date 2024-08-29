@@ -127,6 +127,7 @@ def merge_point_clouds(output_folder, point_cloud_1, point_cloud_2, color_pc1=No
         "-RANDOM_SAMPLING_LIMIT", "20000",
         "-MERGE_CLOUDS",
         "-C_EXPORT_FMT", "PLY",
+        "-PLY_EXPORT_FMT", "ASCII",  # Ensure ASCII format
         "-SAVE_CLOUDS", "FILE", output_path
     ]
 

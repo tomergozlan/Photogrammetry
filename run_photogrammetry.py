@@ -358,6 +358,22 @@ def read_ply(file_path):
     df = pd.DataFrame(data, columns=['x', 'y', 'z', 'red', 'green', 'blue'])
     return header, df
 
+def read_ply(file_path):
+    with open(file_path, 'r') as f:
+        lines = f.readlines()
+    header = []
+    data = []
+    in_header = True
+    for line in lines:
+        if in_header:
+            header.append(line.strip())
+            if line.strip() == "end_header":
+                in_header = False
+        else:
+            data.append([float(val) if i < 3 else int(val) for i, val in enumerate(line.strip().split())])
+    df = pd.DataFrame(data, columns=['x', 'y', 'z', 'red', 'green', 'blue'])
+    return header, df
+
 def write_ply(file_path, header, df):
     with open(file_path, 'w') as f:
         for line in header:
@@ -438,16 +454,12 @@ def merge_point_clouds(output_folder, point_cloud_1, point_cloud_2, color_pc1=No
     # Use CloudCompare's command-line tool to merge and save the point clouds
     align_merge_command = [
         cc_executable,
-        "-VERBOSITY", "1",  # Standard verbosity
         "-o", colored_point_cloud_1,
         "-o", colored_point_cloud_2,
         "-ICP",  # Perform ICP alignment
-        "-MIN_ERROR_DIFF", "1e-6",  # Minimum error difference
-        "-ITER", "500",  # Increase max iterations for better alignment
-        "-OVERLAP", "75",  # Adjust overlap expectation
-        "-RANDOM_SAMPLING_LIMIT", "50000",  # Increase sampling points
         "-MERGE_CLOUDS",  # Merge after alignment
         "-C_EXPORT_FMT", "PLY",  # Export as PLY
+        "-PLY_EXPORT_FMT", "ASCII",  # Ensure ASCII format
         "-SAVE_CLOUDS", "FILE", output_path  # Save merged cloud
     ]
 
@@ -495,14 +507,13 @@ def refine_alignment_with_icp(df1, df2):
 
     return df1, df2
 
-
 def open_project_report():
-    overleaf_url = "https://www.overleaf.com/project/your_project_id"  # Replace with your Overleaf project URL
+    overleaf_url = "https://www.overleaf.com/project/65f42d5bfa7ce0dd4b9eaee7"
     webbrowser.open(overleaf_url)
     console.print("Opening project report in Overleaf...", style="bold green")
 
 def open_research_survey():
-    survey_url = "https://www.surveymonkey.com/r/your_survey_id"  # Replace with your survey URL
+    survey_url = "https://www.overleaf.com/project/65f42d5bfa7ce0dd4b9eaee7"
     webbrowser.open(survey_url)
     console.print("Opening research survey...", style="bold green")
 
@@ -535,7 +546,7 @@ def main():
                 if func_choice == '1':
                     video_path = input("Path to the input video file: ")
                     output_folder = input("Directory to save the extracted frames: ")
-                    overlap_threshold = float(input("Overlap threshold for frame selection (default is 0.2): ") or 0.2)
+                    overlap_threshold = float(input("Overlap threshold for frame selection (default is 0.5): ") or 0.5)
                     select_100_distinct_frames(video_path, output_folder, overlap_threshold)
                 elif func_choice == '2':
                     baseDir = input("Base directory for the project: ")
